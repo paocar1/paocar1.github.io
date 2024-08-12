@@ -1,0 +1,160 @@
+/* General styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Header styles */
+
+
+/*header {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+}
+
+.banner {
+    max-width: 100%;
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+/* Main content styles */
+
+header {
+    background-color: #282c34;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+}
+
+.h1 {
+    color: #fff;
+}
+
+.banner {
+    max-width: 100%;
+    height: auto;
+}
+
+.subtitle {
+    font-style: italic;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+nav ul li a:hover {
+    background-color: #0056b3;
+}
+
+
+/* Main content styles */
+
+main {
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+
+/* Subtitle styles */
+
+.subtitle {
+    font-style: italic;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+/* Info section styles */
+
+.info {
+    margin-bottom: 20px;
+}
+
+.info h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.info p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+
+/* Gallery styles */
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 200px;
+    /* Fixed width */
+    height: 200px;
+    /* Fixed height */
+    object-fit: cover;
+    /* Maintain aspect ratio and cover the box */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Video styles */
+
+video {
+    display: block;
+    max-width: 100%;
+    margin: 20px auto;
+    border-radius: 8px;
+}
